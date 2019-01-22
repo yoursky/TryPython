@@ -1,5 +1,7 @@
 #coding:utf-8
 
+# 集合覆盖问题
+
 states_needed = set(['mt', 'wa', 'or', 'id', 'nv', 'ut', 'ca', 'az'])
 # 广播清单
 stations = {}

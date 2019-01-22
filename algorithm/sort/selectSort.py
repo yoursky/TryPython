@@ -10,7 +10,8 @@ def findSmallest(arr):
 
 def selectSort(arr):
     newArr = []
-    for i in range(len(arr)):
+    # for i in range(len(arr)):
+    while arr:
         idx = findSmallest(arr)
         newArr.append(arr.pop(idx))
     return newArr
